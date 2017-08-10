@@ -3,7 +3,7 @@ body {
   flex-direction: column;
   /*align-items: center;*/
   justify-content: center;
-  background-image: url(/Users/Max/wdi/projects/portfolio/images/oppenhiemerlab-taipei-lowres.jpg);
+  background-image: url("../images/oppenheimerlab-taipei-lowres.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
