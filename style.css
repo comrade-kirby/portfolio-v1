@@ -1,7 +1,8 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
+  justify-content: center;
   background-image: url(/Users/Max/wdi/projects/portfolio/images/oppenhiemerlab-taipei-lowres.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -15,15 +16,39 @@ header {
   justify-content: center;
 }
 header h1 {
-  /*margin: auto;*/
   color: rgb(255,	239,	214);
   font-size: 100px;
-  /*border: 1px solid black;*/
   margin: 0;
 }
 header h2 {
   color: rgb(255,	252,	247);
-  /*border: 1px solid black;*/
   margin: 0;
+}
+nav {
+  background-color: rgb(30, 30, 30);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
 
+nav a {
+  text-decoration: none;
+  color: rgb(255,	252,	247);
+  letter-spacing: 2px;
+}
+main {
+  background-color: rgb(255,	252,	247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main a {
+  height: 300px;
+  width: 600px;
+  background-color: white;
+  margin: 10px;
 }
