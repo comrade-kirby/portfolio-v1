@@ -5,7 +5,6 @@ body {
   background-image: url("../images/oppenheimerlab-taipei-lowres.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
 }
 header {
   min-height: 100vh;
