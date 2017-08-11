@@ -3,10 +3,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background-image: url("../images/oppenheimerlab-taipei-lowres.jpg");
-  background-size: 100%;
   background-size: cover;
-  -webkit-background-size: 100%;
-  -webkit-background-size: 100%;
   background-attachment: fixed;
 }
 header {
