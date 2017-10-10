@@ -1,27 +1,112 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset="utf-8">
     <title>OppenheimerLab</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">    <link rel="stylesheet" href="css/style.css"/>
   </head>
-  <body>
-    <header>
-      <h1>OppenheimerLab</h1>
-      <h2>Newbie developer, living, learning, and experimenting.</h2>
-    </header>
-    <nav>
-      <a href=#>PROJECTS</a>
-      <a href="blog.html">BLOG</a>
-      <a href="about.html">ABOUT</a>
-      <a href="contact.html">CONACT</a>
-    </nav>
-    <main>
-      <a href=#>project1</a>
-      <a href=#>project2</a>
-      <a href=#>project3</a>
-    </main>
-    <footer>
-    </footer>
+
+  <body class='row'>
+
+    <!-- first photo and header -->
+    <div class='parallax-container parallax1'>
+      <header class='col s8 offset-s2 center-align'>
+        <div>
+          <h1 class='yellow-text text-lighten-4'>Max Houston</h1>
+          <h1 class='yellow-text text-lighten-4'>Oppenheimer</h1>
+          <h5 class='cyan-text text-lighten-4'>Newbie developer, living, learning, and experimenting.</h5>
+        </div>
+        <img class='upArrow1' src='./images/icons/arrow-up.png'/>
+      </header>
+      <div class='parallax'>
+        <img src='./images/photos/hcmc.jpg' />
+      </div>
+    </div>
+
+    
+    
+    <!-- about section -->
+    <section class='about white col s12 row'>
+      
+      <!-- photo -->
+      <div class='photoContainer center-align'>
+        <img class='myPhoto' src='./images/photos/max-houston-oppenheimer-headshot.jpg'/>
+      </div>
+      
+      <!-- introduction -->
+      <div class='introduction col s6 offset-s3 center-align'>
+        <h5>Hi, I'm Max</h5> 
+        <div class='left-align'>
+          <p>
+            &emsp; I'm searching for collaborators and employers
+            who want to create awesome things,
+            experiment with new technologies,
+            and make their communities better.
+          </p>
+        </div>
+      </div>
+
+      <!-- skills -->
+      <div class='skills col s12'>
+        <h5 class='center-align'>I know some stuff, and I'm learning more!</h5>
+        <!-- skill icons -->
+        <div class='skillLogoHolder'>
+          <img class='skillLogo' src='./images/logos/git_logo.png' /> 
+          <img class='skillLogo' src='./images/logos/HTML5_Logo.png'/>
+          <img class='skillLogo' src='./images/logos/CSS3_Logo.png' />
+          <img class= 'skillLogo' src='./images/logos/mongoDB_logo.png' />
+          <img class='skillLogo' src='./images/logos/express_logo.png' />
+          <img class='skillLogo' src='./images/logos/react_logo.png' />
+          <img class='skillLogo' src='./images/logos/node_logo.png' />
+          <img class='skillLogo' src='./images/logos/ruby_logo.png' />
+          <img class='skillLogo' src='./images/logos/rails_logo.png' />
+          <img class='skillLogo' src='./images/logos/postgresql_logo.png' />
+        </div>
+      </div>
+    </section>
+
+    <!-- second photo and projects -->
+    <div class='projects parallax2 parallax-container col s12'>
+      <section class='center-align'>
+        <img class='upArrow2' src='./images/icons/arrow-up.png' />
+        <h3 class='center-align'>Works in progress!</h3>
+
+        <div class='center-align'>
+          <a target="_blank" href='https://oppnheimer.github.io/project1/'>
+            <img class='projectImage'src='./images/tower_of_hanoi.png'/>
+          </a>
+          
+          <a target="_blank" href='https://oppnheimer-project2.herokuapp.com'>
+            <img class='projectImage' src='./images/codePOS.png' />
+          </a>
+        </div>
+      </section>
+
+      <div class='parallax'>
+        <img src='./images/photos/lotus.jpg' />
+      </div>
+    </div>
+
+    <!-- contact -->
+    <section class='contact grey-text col s12'>
+      <div>
+        <img src='./images/icons/email.png'/>
+        <p>maxoppenheimer1993@gmail.com</p>
+      </div>
+      <div>
+        <img src='./images/icons/cellphone.png' />
+        <p>502.649.3683</p>
+      </div>
+      <div>
+        <img src='./images/icons/github-circle.png' />
+        <p>https://github.com/OppNHeimer</p>
+      </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type='text/javascript' src='script.js'></script>
   </body>
 </html>
