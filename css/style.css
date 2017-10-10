@@ -69,9 +69,18 @@ header h5 {
 .myPhoto {
   height: 30vh;
   width: 30vh;
-  border: 5px solid lightgrey;
+  /* border: 5px solid darkgrey; */
   border-radius: 200px;
   margin: 5vh 0 2vh 0;
+  box-shadow: 
+    0px -2px 0 black,
+    0px 2px 0 black,
+    -2px -2px 0 magenta,
+    2px 2px 0 magenta,
+    -4px 0px 0 yellow,
+    4px 0px 0 yellow,
+    -3px 3px 0 cyan,
+    3px -3px 0 cyan;
 }
 
 .about p {
@@ -158,5 +167,11 @@ h5 {
 
 .contact p {
   font-size: 20px;
-  margin: 4vh 0;
+  margin: 4vh 0; 
+}
+
+.contact a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
 }
