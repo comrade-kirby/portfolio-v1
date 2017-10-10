@@ -95,6 +95,7 @@ header h5 {
   background-color: lightgrey;
   border: 2px solid grey;
   border-radius: 10px;
+  margin: 2vh;
 }
 
 h5 {
@@ -110,7 +111,7 @@ h5 {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin: 5vh 0 0 0 ;
+  margin: 2vh 0 0 0 ;
 }
 
 .skillLogo {
