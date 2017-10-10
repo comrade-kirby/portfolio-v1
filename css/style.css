@@ -49,14 +49,14 @@ header h1 {
 }
 header h5 {
   margin: 0;
-  text-shadow: -0.5px -0.5px 0 black,
-  0.5px 0.5px 0 black,
-  -0.5px 0.5px 0 black,
-  0.5px -0.5px 0 black,
-  -0.5px 0px 0 black,
-  0.5px 0px 0 black,
-  0px 0.5px 0 black,
-  0px -0.5px 0 black;
+  text-shadow: -0.5px -0.5px 0 white,
+  0.5px 0.5px 0 white,
+  -0.5px 0.5px 0 white,
+  0.5px -0.5px 0 white,
+  -0.5px 0px 0 white,
+  0.5px 0px 0 white,
+  0px 0.5px 0 white,
+  0px -0.5px 0 white;
 }
  
 .upArrow1 {
