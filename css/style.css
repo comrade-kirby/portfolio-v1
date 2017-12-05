@@ -11,7 +11,7 @@
   background-color: white;
   height: 100vh;
   width: 100vw;
-  animation: sink-screen 4s forwards ease-in;
+  animation: sink-screen 3s forwards ease-in;
   opacity: 1;
 }
 .parallax2 {
@@ -28,12 +28,13 @@ header {
 }
 
 .mainHeader {
-  background-color: rgba(48, 48, 34, 0.4);
+  /* background-color: rgba(48, 48, 34, 0.4); */
   margin: 25vh auto 0 auto;
   border-radius: 5px;
   padding: 2vw;
   width: fit-content;
   height: fit-content;
+  animation: header-fade-in 1.5s 2s forwards;
 }
 
 .mainHeader h1 {
@@ -63,7 +64,7 @@ h1 span {
 header h5 {
   margin: 0;
   opacity: 0;
-  animation: fade-in 2s 2s forwards ease;
+  animation: fade-in 2s 1s forwards ease;
 }
  
 .upArrow1 {
@@ -317,7 +318,7 @@ h5 {
     opacity: 1;
   }
   50% {
-    opacity: 0.6;
+    z-index: 5;
   }
   95% {
     opacity: 0.1;
@@ -337,5 +338,14 @@ h5 {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes header-fade-in {
+  0% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    background-color: rgba(48, 48, 34, 0.4);
   }
 }
