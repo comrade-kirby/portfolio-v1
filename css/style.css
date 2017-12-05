@@ -1,8 +1,28 @@
 
 .parallax1 {
+  position: relative;
   height: 100vh;
 }
-
+/* .test {
+  position: absolute;
+  z-index: 4;
+  background-color: green;
+  height: 200px;
+  width: 100px;
+  top: 50px;
+  left: 50px;
+} */
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  /* z-index: 15; */
+  height: 100vh;
+  width: 100vw;
+  animation: sink-screen 5s forwards;
+  opacity: 1;
+}
 .parallax2 {
   height: 90vh;
 }
@@ -13,7 +33,7 @@
 
 header {
   min-height: 100vh !important;  
-  z-index: 1;  
+  /* z-index: 1;   */
 }
 
 .mainHeader {
@@ -25,6 +45,29 @@ header {
   height: fit-content;
 }
 
+.mainHeader h1 {
+  color: rgb(255, 255, 205);
+}
+
+h1 span {
+  margin: -10px;
+  position: relative;
+}
+
+.z1 {z-index: 1}
+.z2 {z-index: 2}
+.z3 {z-index: 3}
+.z4 {z-index: 4}
+.z5 {z-index: 5}
+.z6 {z-index: 6}
+.z7 {z-index: 7}
+.z8 {z-index: 8}
+.z9 {z-index: 9}
+.z10 {z-index: 10}
+.z11 {z-index: 11}
+.z12 {z-index: 12}
+.z13 {z-index: 13}
+.z14 {z-index: 14}
 
 header h5 {
   margin: 0;
@@ -270,4 +313,25 @@ h5 {
   text-decoration: none;
   display: flex;
   flex-direction: row;
+}
+
+
+/* animations */
+
+@keyframes sink-screen {
+  0% {
+    z-index: 15;
+    opacity: 1;
+  }
+  75% {
+    z-index: 0;
+    /* opacity: 0.75; */
+  }
+  95% {
+    opacity: 0;
+  }
+  100% {
+    z-index: 0;
+    opacity: 0;
+  }
 }
