@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('.parallax').parallax()
-
+  $('.screen').addClass('screen-go')
   $('h1 span').click(function () {
     // let position = $(this).position()
     // let clone = $(this).clone()

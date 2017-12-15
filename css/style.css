@@ -11,9 +11,13 @@
   background-color: white;
   height: 100vh;
   width: 100vw;
-  animation: sink-screen 2s forwards ease-in;
   opacity: 1;
 }
+
+.screen-go {
+  animation: sink-screen 1.5s forwards ease-in;
+}
+
 .parallax2 {
   height: 90vh;
 }
@@ -34,7 +38,7 @@ header {
   padding: 2vw;
   width: fit-content;
   height: fit-content;
-  animation: header-fade-in 1.5s 1s forwards;
+  animation: header-fade-in 1.5s 0.75s forwards;
 }
 
 .mainHeader h1 {
@@ -49,7 +53,7 @@ h1 span {
 }
 
 .mainHeader h1:hover {
-  color: rgb(184, 225, 241);
+  color: rgb(197, 230, 241);
 }
 
 .z1 {z-index: 1}
@@ -96,7 +100,7 @@ header h5 {
   height: 30vh;
   width: 30vh;
   /* border: 5px solid darkgrey; */
-  border-radius: 110px;
+  border-radius: 80px;
   margin: 5vh 0 2vh 0;
   box-shadow: 
     0px -2px 0 black,
@@ -336,16 +340,18 @@ h5 {
 
 @keyframes sink-screen {
   0% {
+    background-color: rgb(204, 230, 240);
     z-index: 15;
     opacity: 1;
   }
   50% {
-    z-index: 6;
+    /* z-index: 6; */
   }
   95% {
     opacity: 0.1;
   }
   100% {
+    background-color: white;
     z-index: 0;
     opacity: 0.1;
   }
